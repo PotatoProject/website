@@ -164,7 +164,8 @@ export default {
           links: [
             {icon: "mdi-github-circle", link: "https://github.com/ShreyanshLodha"},
             {icon: "mdi-instagram", link: "https://www.instagram.com/shreyanshlodha/"},
-            {icon: "mdi-twitter", link: "https://twitter.com/_ShreyanshLodha"}
+            {icon: "mdi-twitter", link: "https://twitter.com/_ShreyanshLodha"},
+            {icon: "mdi-google-plus", link: "http://plus.google.com/+ShreyanshLodha"}
           ]
         },
         {
@@ -172,7 +173,9 @@ export default {
           name: "Till Kottmann",
           rank: "Developer",
           links: [
-            {icon: "mdi-github-circle", link: ""},
+            {icon: "mdi-github-circle", link: "https://github.com/deletescape"},
+            {icon: "mdi-instagram", link: "https://instagram.com/deletescape"},
+            {icon: "mdi-twitter", link: "https://twitter.com/deletescape"}
           ]
         }
       ],
