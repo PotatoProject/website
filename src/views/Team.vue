@@ -69,7 +69,7 @@
             </v-card-title>
           </v-card>
         </v-flex>
-        <v-flex xs12 sm6 md3 lg2 pa-2 v-for="designer in designers" :key="designer.id">
+        <v-flex xs12 sm6 md3 pa-2 v-for="designer in designers" :key="designer.id">
           <v-card hover>
             <v-card-media height="200px" src="">
               <v-avatar size="160px" style=" display: block; margin: 0 auto; padding-top: 20px;">
