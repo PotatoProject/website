@@ -6,7 +6,7 @@
         <img src="../assets/potato.svg" class="mb-3" width="150px">
         <h1 class="white--text mb-2 display-1 text-xs-center">Potato Open Sauce Project</h1>
         <div class="subheading mb-3 text-xs-center">Powered by Android&trade;</div>
-        <v-btn class="primary" dark large href="/downloads">
+        <v-btn class="white" large href="/downloads">
           Get Started
         </v-btn>
       </v-layout>
