@@ -11,7 +11,7 @@
         </v-btn>
       </v-layout>
     </div>
-    <div class="primary" id="color-cover"></div>
+    <div id="color-cover"></div>
     <div class="box"></div>
   </nav>
 <section>
@@ -136,6 +136,7 @@
     z-index: 2;
     position: absolute;
     pointer-events: none;
+    background: linear-gradient(to right, #8E2DE2, #4A00E0);
   }
 
   .background {

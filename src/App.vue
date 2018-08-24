@@ -38,8 +38,8 @@
       </v-toolbar-items>
     </v-toolbar>
 
-    <v-toolbar fixed dark app color="primary" style="z-index: 1;"></v-toolbar>
-    <v-footer color="primary" class="footer">
+    <v-toolbar fixed dark app style="z-index: 1; background: linear-gradient(to right, #8E2DE2, #4A00E0);"></v-toolbar>
+    <v-footer color="primary" style="background: linear-gradient(to right, #8E2DE2, #4A00E0);" class="footer">
       <v-layout row wrap>
         <v-flex xs12>
           <div class="white--text ml-3 text-xs-center">
