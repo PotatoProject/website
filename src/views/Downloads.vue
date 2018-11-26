@@ -9,7 +9,7 @@
             <v-card-title primary-title>
               <div>
                 <div class="headline">{{ device.name }}</div>
-                <span class="grey--text">Maintainer: {{ device.maintainer }}</span>
+                <span class="grey--text">{{ device.maintainer }}</span>
               </div>
             </v-card-title>
           </v-card>
@@ -41,15 +41,29 @@
             maintainer: 'Nico Franke (ZerNico)',
           },
           {
+            id: 'beryllium',
+            name: 'Pocophone F1',
+            maintainer: 'Kshitij Gupta (AgentFabulous)',
+          },
+          {
+            id: 'kenzo',
+            name: 'Xiaomi Redmi Note 3',
+            maintainer: 'Absar Rahman',
+          },
+          {
             id: 'mido',
             name: 'Redmi Note 4',
             maintainer: 'Adesh Ikhar (Adesh15)',
           },
-
           {
-            id: 'vince',
-            name: 'Redmi 5 Plus',
-            maintainer: 'mdeejay🇷🇺',
+            id: 'whyred',
+            name: 'Xiaomi Redmi Note 5 Pro',
+            maintainer: 'Raj Jadeja (rajadeja)',
+          },
+          {
+            id: 'berkeley',
+            name: 'Honor View 10',
+            maintainer: 'David Sn (divadsn)',
           }
         ]
       }
