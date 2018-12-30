@@ -41,6 +41,11 @@
             maintainer: 'Nico Franke (ZerNico)',
           },
           {
+          	id: 'enchilada',
+          	name: 'OnePlus 6',
+          	maintainer: 'Samriddha Basu (TheDorkKnightRises)',
+          },
+          {
             id: 'beryllium',
             name: 'Pocophone F1',
             maintainer: 'Kshitij Gupta (AgentFabulous)',
@@ -61,9 +66,29 @@
             maintainer: 'Raj Jadeja (rajadeja)',
           },
           {
+          	id: 'chiron',
+          	name: 'Xiaomi Mi Mix 2',
+          	maintainer: 'HrX (HrX03)',
+          },
+          {
             id: 'berkeley',
             name: 'Honor View 10',
             maintainer: 'David Sn (divadsn)',
+          },
+          {
+          	id: 'potter',
+          	name: 'Moto G5 Plus',
+          	maintainer: 'Hammered-Cannibal',
+          },
+          {
+          	id: 'sanders',
+          	name: 'Moto G5S Plus',
+          	maintainer: 'Dibyajyoti Samal (Dybios)',
+          },
+          {
+          	id: 'X00T',
+          	name: 'Asus Zenfone Max Pro M1',
+          	maintainer: 'Akash Khatri (MasterKhatri)',
           }
         ]
       }
@@ -78,3 +103,4 @@
     }
   }
 </script>
+
