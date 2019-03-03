@@ -44,7 +44,7 @@
         <v-flex xs12>
           <div class="white--text ml-3 text-xs-center">
             Made with
-            <v-icon color="red">favorite</v-icon> by Nico Franke • &copy;2018 POSP
+            <v-icon small color="red">favorite</v-icon> by Nico Franke • &copy;{{ new Date().getFullYear() }} POSP
           </div>
         </v-flex>
       </v-layout>
