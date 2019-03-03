@@ -1,8 +1,11 @@
 import '@mdi/font/css/materialdesignicons.css'
-import Vue from 'vue'
+
 import Router from 'vue-router'
+import Vue from 'vue'
+
 const Home = () => import('./views/Home.vue')
 const Downloads = () => import('./views/Downloads.vue')
+const Changelog = () => import('./views/Changelog.vue')
 const Team = () => import('./views/Team.vue')
 
 Vue.use(Router)
@@ -21,6 +24,11 @@ export default new Router({
       path: '/downloads',
       name: 'downloads',
       component: Downloads
+    },
+    {
+      path: '/changelog',
+      name: 'changelog',
+      component: Changelog
     },
     {
       path: '/team',

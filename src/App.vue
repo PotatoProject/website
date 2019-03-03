@@ -21,7 +21,7 @@
     </v-navigation-drawer>
 
     <main>
-      <router-view></router-view>
+      <router-view ></router-view>
     </main>
 
     <v-toolbar fixed dark app class="transparent elevation-0" style="z-index: 3;">
@@ -69,9 +69,9 @@
             link: '/downloads'
           },
           {
-            icon: 'fastfood',
-            title: 'Recipes',
-            link: '/recipes'
+            icon: 'list_alt',
+            title: 'Changelog',
+            link: '/changelog'
           },
           {
             icon: 'people',
