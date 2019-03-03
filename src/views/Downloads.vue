@@ -31,6 +31,11 @@
             maintainer: 'Kshitij Gupta (AgentFabulous)',
           },
           {
+            id: 'onyx',
+            name: 'OnePlus X',
+            maintainer: 'Kushagra Vipradas (kushagra57)',
+          },
+          {
             id: 'oneplus2',
             name: 'OnePlus 2',
             maintainer: 'Shreyansh Lodha',
@@ -38,12 +43,17 @@
           {
             id: 'oneplus3',
             name: 'OnePlus 3/3T',
-            maintainer: 'Nico Franke (ZerNico)',
+            maintainer: 'Jagrav Naik',
           },
           {
             id: 'enchilada',
             name: 'OnePlus 6',
             maintainer: 'Samriddha Basu (TheDorkKnightRises)',
+          },
+          {
+            id: 'fajita',
+            name: 'OnePlus 6T',
+            maintainer: 'Ujwal P (ujwalp15)',
           },
           {
             id: 'beryllium',
@@ -58,7 +68,7 @@
           {
             id: 'mido',
             name: 'Redmi Note 4',
-            maintainer: 'Adesh Ikhar (Adesh15)',
+            maintainer: 'Rahul Mishra (beingmishra)',
           },
           {
             id: 'whyred',
@@ -71,14 +81,14 @@
             maintainer: 'HrX (HrX03)',
           },
           {
-            id: 'berkeley',
-            name: 'Honor View 10',
-            maintainer: 'David Sn (divadsn)',
+            id: 'dipper',
+            name: 'Xiaomi Mi 8',
+            maintainer: 'Arseniy Graur (argraur)',
           },
           {
             id: 'potter',
             name: 'Moto G5 Plus',
-            maintainer: 'Hammered-Cannibal',
+            maintainer: 'Ashwin R C (AshwinRC)',
           },
           {
             id: 'sanders',
@@ -86,9 +96,9 @@
             maintainer: 'Dibyajyoti Samal (Dybios)',
           },
           {
-            id: 'X00T',
-            name: 'Asus Zenfone Max Pro M1',
-            maintainer: 'Akash Khatri (MasterKhatri)',
+            id: 'ether',
+            name: 'Nextbit Robin',
+            maintainer: 'Raj Jadeja (rajadeja)',
           }
         ]
       }
