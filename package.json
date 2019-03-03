@@ -9,8 +9,13 @@
   },
   "dependencies": {
     "@mdi/font": "^3.4.93",
+    "axios": "^0.18.0",
+    "babel-runtime": "^6.26.0",
+    "highlight.js": "^9.15.6",
+    "marked": "^0.6.1",
     "v-img": "^0.2.0",
     "vue": "^2.6.7",
+    "vue-markdown": "^2.2.4",
     "vue-router": "^3.0.2",
     "vuetify": "^1.5.2"
   },
