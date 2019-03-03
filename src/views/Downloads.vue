@@ -4,8 +4,8 @@
       <v-layout row wrap>
         <v-flex xs12 sm6 md4 pa-2 v-for="device in devices" :key="device.id">
           <v-card hover :href="getSfLink(device.id)">
-            <v-card-media height="250px" :src="getImgUrl(device.id)">
-            </v-card-media>
+            <v-img height="250px" :src="getImgUrl(device.id)">
+            </v-img>
             <v-card-title primary-title>
               <div>
                 <div class="headline">{{ device.name }}</div>

@@ -10,12 +10,12 @@
           </v-card>
         </v-flex>
         <v-flex xs12 sm6 md3 lg2 pa-2 v-for="founder in founders" :key="founder.id">
-          <v-card hover>
-            <v-card-media height="200px" src="">
+          <v-card hover height="100%" class="flexcard">
+            <v-img height="200px" src="">
               <v-avatar size="160px" style=" display: block; margin: 0 auto; padding-top: 20px;">
                 <img :src="getImgUrl(founder.id, founder.gravatar, founder.hash)" />
               </v-avatar>
-            </v-card-media>
+            </v-img>
             <v-card-title primary-title>
               <div>
                 <div class="headline">{{ founder.name }}</div>
@@ -40,12 +40,12 @@
           </v-card>
         </v-flex>
         <v-flex xs12 sm6 md3 lg2 pa-2 v-for="member in members" :key="member.id">
-          <v-card hover>
-            <v-card-media height="200px" src="">
+          <v-card hover height="100%" class="flexcard">
+            <v-img height="200px" src="">
               <v-avatar size="160px" style=" display: block; margin: 0 auto; padding-top: 20px;">
                 <img :src="getImgUrl(member.id, member.gravatar, member.hash)" />
               </v-avatar>
-            </v-card-media>
+            </v-img>
             <v-card-title primary-title>
               <div>
                 <div class="headline">{{ member.name }}</div>
@@ -70,12 +70,12 @@
           </v-card>
         </v-flex>
         <v-flex xs12 sm6 md3 lg2 pa-2 v-for="designer in designers" :key="designer.id">
-          <v-card hover>
-            <v-card-media height="200px" src="">
+          <v-card hover height="100%" class="flexcard">
+            <v-img height="200px" src="">
               <v-avatar size="160px" style=" display: block; margin: 0 auto; padding-top: 20px;">
                 <img :src="getImgUrl(designer.id, designer.gravatar, designer.hash)" />
               </v-avatar>
-            </v-card-media>
+            </v-img>
             <v-card-title primary-title>
               <div>
                 <div class="headline">{{ designer.name }}</div>
@@ -231,3 +231,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.flexcard {
+  display: flex;
+  flex-direction: column;
+}
+</style>
