@@ -132,9 +132,9 @@
     computed: {
       filteredDevices() {
         return this.devices.filter(device => {
-          return device.name.toLowerCase().includes(this.search.toLowerCase()) || 
-          device.id.toLowerCase().includes(this.search.toLowerCase()) ||
-          device.maintainer.toLowerCase().includes(this.search.toLowerCase())
+          return device.name.toLowerCase().match('^' + this.search + ".*", 'i') || 
+          device.id.toLowerCase().match('^' + this.search + ".*", 'i') ||
+          device.maintainer.toLowerCase().match('^' + this.search + ".*", 'i')
         })
       }
     }
