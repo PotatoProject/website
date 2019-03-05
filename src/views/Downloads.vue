@@ -2,7 +2,24 @@
   <v-app>
     <v-container fluid grid-list-md style="padding-top: 75px">
       <v-layout row wrap>
-        <v-flex xs12 sm6 md4 pa-2 v-for="device in devices" :key="device.id">
+        <v-flex xs12 sm12 md12 pa-2>
+          <v-card
+            dense
+            floating
+          >
+            <v-text-field
+              style="padding-left: 15px"
+              v-model="search"
+              hide-details
+              prepend-icon="search"
+              label="Search..."
+              single-line
+              solo
+              flat
+            ></v-text-field>
+          </v-card>
+        </v-flex>
+        <v-flex xs12 sm6 md4 pa-2 v-for="device in filteredDevices" :key="device.id" >
           <v-card hover :href="getSfLink(device.id)">
             <v-img height="250px" :src="getImgUrl(device.id)">
             </v-img>
@@ -24,6 +41,7 @@
     name: 'Downloads',
     data () {
       return {
+        search: '',
         devices: [
           {
             id: 'bacon',
@@ -109,6 +127,15 @@
       },
       getSfLink(id) {
         return 'https://sourceforge.net/projects/posp/files/' + id
+      }
+    },
+    computed: {
+      filteredDevices() {
+        return this.devices.filter(device => {
+          return device.name.toLowerCase().includes(this.search.toLowerCase()) || 
+          device.id.toLowerCase().includes(this.search.toLowerCase()) ||
+          device.maintainer.toLowerCase().includes(this.search.toLowerCase())
+        })
       }
     }
   }
