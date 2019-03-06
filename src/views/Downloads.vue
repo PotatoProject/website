@@ -116,7 +116,7 @@
           {
             id: 'ether',
             name: 'Nextbit Robin',
-            maintainer: 'Raj Jadeja (rajadeja)',
+            maintainer: 'Anierin Bliss',
           }
         ]
       }

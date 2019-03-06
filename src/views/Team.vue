@@ -133,18 +133,18 @@ export default {
             {icon: "mdi-twitter", link: "https://twitter.com/_ShreyanshLodha"},
             {icon: "mdi-google-plus", link: "http://plus.google.com/+ShreyanshLodha"}
           ]
-        }
-      ],
-      members: [
+        },
         {
-          id: "Adesh15",
-          name: "Adesh Ikhar",
-          rank: "Developer",
+          id: "rajadeja",
+          name: "Raj Jadeja",
+          rank: "Lead Developer",
           links: [
-            {icon: "mdi-github-circle", link: "https://github.com/Adesh15"},
-            {icon: "mdi-google-plus", link: "https://plus.google.com/112917473520794326399"}
+            {icon: "mdi-github-circle", link: "https://github.com/rajadeja"},
+            {icon: "mdi-instagram", link: "https://instagram.com/raj__jadeja"}
           ]
         },
+      ],
+      members: [
         {
           id: "akhilnarang",
           name: "Akhil Narang",
@@ -168,15 +168,6 @@ export default {
             {icon: "mdi-instagram", link: "https://www.instagram.com/jagrav_/"},
             {icon: "mdi-twitter", link: "https://twitter.com/JagravN"},
             {icon: "mdi-google-plus", link: "https://plus.google.com/+JagravNaik"}
-          ]
-        },
-        {
-          id: "rajadeja",
-          name: "Raj Jadeja",
-          rank: "Developer",
-          links: [
-            {icon: "mdi-github-circle", link: "https://github.com/rajadeja"},
-            {icon: "mdi-instagram", link: "https://instagram.com/raj__jadeja"}
           ]
         },
         {
