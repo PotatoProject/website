@@ -25,7 +25,7 @@
             <v-card-actions>
               <v-spacer></v-spacer>
               <template  v-for="link in founder.links" >
-                <v-btn icon :href="link.link" :key="link.icon">
+                <v-btn icon :href="link.link" target="_blank" :key="link.icon">
                   <v-icon>{{ link.icon }}</v-icon>
                 </v-btn>
               </template>
@@ -55,7 +55,7 @@
             <v-card-actions>
               <v-spacer></v-spacer>
               <template  v-for="link in member.links" >
-                <v-btn icon :href="link.link" :key="link.icon">
+                <v-btn icon :href="link.link" target="_blank" :key="link.icon">
                   <v-icon>{{ link.icon }}</v-icon>
                 </v-btn>
               </template>
@@ -85,7 +85,7 @@
             <v-card-actions>
               <v-spacer></v-spacer>
               <template  v-for="link in designer.links" >
-                <v-btn icon :href="link.link" :key="link.icon">
+                <v-btn icon :href="link.link" target="_blank" :key="link.icon">
                   <v-icon>{{ link.icon }}</v-icon>
                 </v-btn>
               </template>
@@ -157,6 +157,17 @@ export default {
             {icon: "mdi-twitter", link: "https://twitter.com/akhiln24"}, 
             {icon: "mdi-google-plus", link: "https://plus.google.com/+AkhilNarang"}
             
+          ]
+        },
+        {
+          id: "hrx",
+          name: "HrX",
+          rank: "Developer",
+          links: [
+            {icon: "mdi-github-circle", link: "https://github.com/HrX03"},
+            {icon: "mdi-instagram", link: "https://instagram.com/b_b_biancoboi"},
+            {icon: "mdi-twitter", link: "https://twitter.com/HrX2003"},
+            {icon: "mdi-reddit", link: "https://www.reddit.com/user/Loller06"}
           ]
         },
         {
