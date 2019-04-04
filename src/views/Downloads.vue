@@ -75,8 +75,13 @@
           },
           {
             id: 'beryllium',
-            name: 'Pocophone F1',
+            name: 'Xiaomi Pocophone F1',
             maintainer: 'Kshitij Gupta (AgentFabulous)',
+          },
+          {
+            id: 'tissot',
+            name: ' Xiaomi Mi A1',
+            maintainer: 'keikei14',
           },
           {
             id: 'kenzo',
@@ -85,8 +90,13 @@
           },
           {
             id: 'mido',
-            name: 'Redmi Note 4',
+            name: 'Xiaomi Redmi Note 4',
             maintainer: 'Rahul Mishra (beingmishra)',
+          },
+          {
+            id: 'vince',
+            name: 'Xiaomi Redmi Note 5',
+            maintainer: '4PERTURE',
           },
           {
             id: 'whyred',
@@ -97,6 +107,11 @@
             id: 'chiron',
             name: 'Xiaomi Mi Mix 2',
             maintainer: 'HrX (HrX03)',
+          },
+          {
+            id: 'sagit',
+            name: 'Xiaomi Mi 6',
+            maintainer: 'Daniel Patron Gomez (dpatrongomez)',
           },
           {
             id: 'dipper',
@@ -117,6 +132,11 @@
             id: 'ether',
             name: 'Nextbit Robin',
             maintainer: 'Anierin Bliss',
+          },
+          {
+            id: 'X00T',
+            name: ' Asus ZenFone Max Pro M1',
+            maintainer: 'BabluS',
           }
         ]
       }
