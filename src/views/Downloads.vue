@@ -135,8 +135,13 @@
           },
           {
             id: 'X00T',
-            name: ' Asus ZenFone Max Pro M1',
+            name: 'Asus ZenFone Max Pro M1',
             maintainer: 'BabluS',
+          },
+          {
+            id: 'zenfone3',
+            name: 'Asus ZenFone 3',
+            maintainer: 'Abhay Kshatriya',
           }
         ]
       }
