@@ -95,12 +95,12 @@
           },
           {
             id: 'vince',
-            name: 'Xiaomi Redmi Note 5',
+            name: 'Xiaomi Redmi Note 5/Plus',
             maintainer: '4PERTURE',
           },
           {
             id: 'whyred',
-            name: 'Xiaomi Redmi Note 5 Pro',
+            name: 'Xiaomi Redmi Note 5 Global/Pro',
             maintainer: 'Raj Jadeja (rajadeja)',
           },
           {
