@@ -91,7 +91,7 @@
           {
             id: 'mido',
             name: 'Xiaomi Redmi Note 4',
-            maintainer: 'Rahul Mishra (beingmishra)',
+            maintainer: 'Raj Jadeja (rajadeja)',
           },
           {
             id: 'vince',
