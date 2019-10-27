@@ -84,6 +84,7 @@
             </v-card-title>
             <v-card-actions>
               <v-spacer></v-spacer>
+              <v-btn icon disabled></v-btn>
               <template  v-for="link in designer.links" >
                 <v-btn icon :href="link.link" target="_blank" :key="link.icon">
                   <v-icon>{{ link.icon }}</v-icon>
@@ -119,8 +120,7 @@ export default {
           links: [
             {icon: "mdi-github-circle", link: "https://github.com/ZerNico"},
             {icon: "mdi-instagram", link: "https://instagram.com/z3rnico"},
-            {icon: "mdi-twitter", link: "https://twitter.com/Z3rNico"}, 
-            {icon: "mdi-google-plus", link: "https://plus.google.com/103487503581748563170"}
+            {icon: "mdi-twitter", link: "https://twitter.com/Z3rNico"}
           ]
         },
         {
@@ -130,8 +130,7 @@ export default {
           links: [
             {icon: "mdi-github-circle", link: "https://github.com/ShreyanshLodha"},
             {icon: "mdi-instagram", link: "https://www.instagram.com/shreyanshlodha/"},
-            {icon: "mdi-twitter", link: "https://twitter.com/_ShreyanshLodha"},
-            {icon: "mdi-google-plus", link: "http://plus.google.com/+ShreyanshLodha"}
+            {icon: "mdi-twitter", link: "https://twitter.com/_ShreyanshLodha"}
           ]
         },
         {
@@ -154,8 +153,7 @@ export default {
           links: [
             {icon: "mdi-github-circle", link: ""},
             {icon: "mdi-instagram", link: "https://instagram.com/akhilnarang"},
-            {icon: "mdi-twitter", link: "https://twitter.com/akhiln24"}, 
-            {icon: "mdi-google-plus", link: "https://plus.google.com/+AkhilNarang"}
+            {icon: "mdi-twitter", link: "https://twitter.com/akhiln24"}
             
           ]
         },
@@ -177,8 +175,7 @@ export default {
           links: [
             {icon: "mdi-github-circle", link: "https://github.com/JagravNaik"},
             {icon: "mdi-instagram", link: "https://www.instagram.com/jagrav_/"},
-            {icon: "mdi-twitter", link: "https://twitter.com/JagravN"},
-            {icon: "mdi-google-plus", link: "https://plus.google.com/+JagravNaik"}
+            {icon: "mdi-twitter", link: "https://twitter.com/JagravN"}
           ]
         },
         {
@@ -206,7 +203,6 @@ export default {
           name: "Karol Szcześniak",
           rank: "Graphic Designer",
           links: [
-            {icon: "mdi-google-plus", link: "https://plus.google.com/+KarolSzcze%C5%9Bniak"}
           ]
         },
         {
