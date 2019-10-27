@@ -190,6 +190,15 @@ export default {
             {icon: "mdi-instagram", link: "https://instagram.com/deletescape"},
             {icon: "mdi-twitter", link: "https://twitter.com/deletescape"}
           ]
+        },
+        {
+          id: "asswin",
+          name: "Ashwin RC",
+          rank: "Community Manager & Developer",
+          links: [
+            {icon: "mdi-github-circle", link: "https://github.com/Ashwin4RC"},
+            {icon: "mdi-twitter", link: "https://twitter.com/Ashwin4RC"}
+          ]
         }
       ],
       designers: [
