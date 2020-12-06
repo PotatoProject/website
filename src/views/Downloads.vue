@@ -70,7 +70,7 @@
           },
           {
             id: 'fajita',
-            name: 'OnePlus 6T',
+            name: 'OnePlus 6T (Support Dropped)',
             maintainer: 'Ujwal P (ujwalp15)',
           },
           {
@@ -80,7 +80,7 @@
           },
           {
             id: 'tissot',
-            name: ' Xiaomi Mi A1',
+            name: ' Xiaomi Mi A1 (Support Dropped)',
             maintainer: 'keikei14',
           },
           {
@@ -95,12 +95,12 @@
           },
           {
             id: 'vince',
-            name: 'Xiaomi Redmi Note 5',
+            name: 'Xiaomi Redmi Note 5/Plus',
             maintainer: '4PERTURE',
           },
           {
             id: 'whyred',
-            name: 'Xiaomi Redmi Note 5 Pro',
+            name: 'Xiaomi Redmi Note 5 Global/Pro',
             maintainer: 'Raj Jadeja (rajadeja)',
           },
           {
@@ -120,7 +120,7 @@
           },
           {
             id: 'potter',
-            name: 'Moto G5 Plus',
+            name: 'Moto G5 Plus (Support Dropped)',
             maintainer: 'Ashwin R C (AshwinRC)',
           },
           {
@@ -130,7 +130,7 @@
           },
           {
             id: 'ether',
-            name: 'Nextbit Robin',
+            name: 'Nextbit Robin (Support Dropped)',
             maintainer: 'Anierin Bliss',
           },
           {
@@ -140,7 +140,7 @@
           },
           {
             id: 'zenfone3',
-            name: 'Asus ZenFone 3',
+            name: 'Asus ZenFone 3 (Support Dropped)',
             maintainer: 'Abhay Kshatriya',
           }
         ]
